@@ -1,0 +1,12 @@
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+vendor
+user_guide
+composer.lock
+.idea
+.DS_Store
+
