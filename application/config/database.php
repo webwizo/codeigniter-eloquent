@@ -83,3 +83,5 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+require_once 'eloquent.php';
