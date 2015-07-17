@@ -20,6 +20,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$countries = Country::all();
+		print_r($countries->toArray());
+		// $this->load->view('welcome_message');
 	}
 }
