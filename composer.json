@@ -1,9 +1,9 @@
 {
-  "description": "The CodeIgniter framework",
-  "name": "codeigniter/framework",
+  "description": "The CodeIgniter framework with Illuminate Eloquent",
+  "name": "webwizo/codeigniter-eloquent",
   "license": "MIT",
   "require": {
-	"php": ">=5.2.4",
+    "php": ">=5.6.4",
 	"illuminate/database": "^5.3"
   },
   "require-dev": {
